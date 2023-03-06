@@ -12,7 +12,7 @@ before_script:
 script:
   - black --check .
   - flake8 .
-  - coverage run --source=myproject, polls manage.py test
+  - coverage run --source=myproject, manage.py test
 
 deploy:
   provider: elasticbeanstalk
