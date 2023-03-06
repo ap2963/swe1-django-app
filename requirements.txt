@@ -8,3 +8,4 @@ typing_extensions==4.5.0
 black
 flake8
 coverage
+coverall==3.3.1
