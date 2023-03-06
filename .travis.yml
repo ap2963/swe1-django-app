@@ -22,3 +22,5 @@ deploy:
   app: "swe1app"
   env: "swe1-env"
   bucket_name: "elasticbeanstalk-us-east-1-241091061040"
+  on:
+    branch: main
